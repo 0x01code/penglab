@@ -74,7 +74,7 @@ Testing upload speed............................................................
 Upload: 3.87 Mbit/s
 ```
 
-## Not to lose connection
+## Prevent disconnects
 ```
 function ClickConnect() {
   console.log("Working");
