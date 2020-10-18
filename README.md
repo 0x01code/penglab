@@ -73,3 +73,12 @@ Download: 2196.68 Mbit/s
 Testing upload speed......................................................................................................
 Upload: 3.87 Mbit/s
 ```
+
+## Not to lose connection
+```
+function ClickConnect() {
+  console.log("Working");
+  document.querySelector("colab-toolbar-button#connect").click()
+}
+setInterval(ClickConnect,60000) 
+```
